@@ -1,0 +1,49 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 13rem;
+    margin-top: 9rem;
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.s-left>:nth-child(1){
+    font-weight: bold;
+    color: var(--black);
+    font-size: 2.5rem;
+}
+.s-left>:nth-child(2){
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 2.5rem;
+}
+.s-left>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.cards {
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+
+.s-blur1{
+    top: '8rem';
+    left: '14rem';
+}
+.s-blur2{
+    top: '13rem';
+    left: '-18rem';
+}
