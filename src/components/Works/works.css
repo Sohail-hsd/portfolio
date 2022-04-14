@@ -1,0 +1,87 @@
+.works{
+    padding: 0rem 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+
+.r-work{
+    position: relative;
+}
+
+.mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+.mainCircle>*{
+    position: absolute;
+}
+
+/* Setting the position of the pngs */
+.mainCircle > :nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+.mainCircle > :nth-child(2){
+    left: -3rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(3){
+    left: 6rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(4){
+    left: 15rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(5){
+    left: 6rem;
+    top: 13rem;
+}
+
+/* Making the circle (Secondry cirlce) around the pngs */
+
+.secCircle{
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background-color: white;
+}
+
+.secCircle > img{
+    transform: scale(0.6);
+}
+
+/* Backgrounf circle (Blue and yellow circle */
+
+.w-backCircle {
+    position: absolute;
+    z-index: -1;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+}
+
+.blueCircle {
+    background-color: rgb(53, 53, 190);
+    left: 18rem;
+    top: 0rem;
+}
+.yellowCircle {
+    background-color: rgb(230, 201, 42);
+    left: 18rem;
+    top: 8rem;
+}
